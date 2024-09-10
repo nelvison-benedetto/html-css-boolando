@@ -99,7 +99,6 @@ body {
     background-repeat: no-repeat;
 }
 
-
 #app_header{
     .header_boolean_logo{
         background-image: url("/assets/img/boolean-logo.png");
@@ -108,5 +107,17 @@ body {
 #app_main{
     #img_relaxed_fit_tee_uni{
         background-image: url("/assets/img/1.webp");
+        width: 100%;
+        height: 100%;
+    }
+    #img_roses_tee{
+        background-image: url("/assets/img/2.webp");
+        width: 100%;
+        height: 100%;
+    }
+    #img_voglia_colori_pastello{
+        background-image: url("/assets/img/3.webp");
+        width: 100%;
+        height: 100%;
     }
 }
