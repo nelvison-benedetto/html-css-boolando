@@ -79,7 +79,7 @@ body {
     flex-grow: 1;
 }
 .gap-10{
-    gap: 50px;
+    gap: 10px;
 }
 .text-align-left{
     text-align: left;
@@ -107,7 +107,6 @@ body {
 #app_main{
     #img_relaxed_fit_tee_uni{
         background-image: url("/assets/img/1.webp");
-
     }
     #img_roses_tee{
         background-image: url("/assets/img/2.webp");
@@ -126,5 +125,15 @@ body {
         object-fit: cover;
         max-width: 100%;
         height: auto;
+        display: block; /* //ELIMINA SPAZI BIANCHI SOTTO IMMAGINI!! */
+    }
+    .discount span{
+        background-color: var(--red);
+    }
+    .item_made span{
+        background-color: var(--green);
+    }
+    .icon_heart span{
+        background-color: var(--white);
     }
 }
