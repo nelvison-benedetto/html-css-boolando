@@ -56,6 +56,12 @@ body {
 .d-flex{
     display: flex;
 }
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
 .flex-justify-center{
     justify-content: center;
 }
@@ -97,5 +103,10 @@ body {
 #app_header{
     .header_boolean_logo{
         background-image: url("/assets/img/boolean-logo.png");
+    }
+}
+#app_main{
+    #img_relaxed_fit_tee_uni{
+        background-image: url("/assets/img/1.webp");
     }
 }
