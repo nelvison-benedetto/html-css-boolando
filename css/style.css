@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #fff;
+    --black: #000;
+    --orange: #ff6900;
+    --red:#ff0000;
+    --green: #008000;
+}
+
+#debug *{
+    border: 1px dashed;
+}
+
+.color-white{
+    color: var(--white);
+}
+.color-black{
+    color: var(--black)
+}
+
+.bg-orange{
+    background-color: var(--orange);
+}
+
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+.d-flex{
+    display: flex;
+}
+.flex-justify-center{
+    justify-content: center;
+}
+.flex-align-center{
+    align-items: center;
+}
+.flex-center-center{
+    justify-content: center;
+    align-items: center;
+}
+.img_cover_norepeat_center{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#app_header{
+    .header_boolean_logo{
+        background-image: url("/assets/img/boolean-logo.png");
+    }
+}
