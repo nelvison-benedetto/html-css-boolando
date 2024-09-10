@@ -36,6 +36,9 @@ body {
 .color-black{
     color: var(--black)
 }
+.color-red{
+    color: var(--red);
+}
 
 .bg-orange{
     background-color: var(--orange);
@@ -94,6 +97,10 @@ body {
     font-size: 0.8em;
     padding: 0.17em 0.5em;
 }
+.text-small-padding-topbottom{
+    font-size: 0.8em;
+    padding: 0.17em 0em;
+}
 .img_cover_norepeat_center{
     background-size: cover;
     background-position: center;
@@ -123,6 +130,12 @@ body {
 }
 .display-none{
     display: none;
+}
+.text-line-through{
+    text-decoration: line-through;
+}
+.text-bold{
+    font-weight: bold;
 }
 
 #app_header{
