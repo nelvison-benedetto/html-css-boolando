@@ -46,6 +46,9 @@ body {
 .bg-white{
     background-color: var(--white);
 }
+.bg-black{
+    background-color: var(--black);
+}
 
 .w-40{
     width: 40%;
@@ -180,4 +183,8 @@ body {
     .icon_heart span{
         font-size: 1.6em;
     }
+}
+
+#app_footer{
+    
 }
