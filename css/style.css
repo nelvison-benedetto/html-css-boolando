@@ -182,7 +182,7 @@ body {
         width: 33%;
     }
     .header_boolean_logo{
-        background-image: url("/assets/img/boolean-logo.png");
+        background-image: url("../assets/img/boolean-logo.png");
     }
 }
 #app_main{
@@ -227,7 +227,7 @@ body {
         opacity: 0.4;
     }  /* WORKING ON CHANGE IMG WHEN HOVER */
 
-    
+
 }
 #app_footer{
     .icon_share{
