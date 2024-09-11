@@ -19,9 +19,9 @@ body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-#debug *{
+/*  #debug *{
     border: 1px dashed;
-}
+}  */
 
 .font-size-18{
     font-size: 18px;
@@ -29,7 +29,6 @@ body {
 .pd-updown-30{
     padding: 60 0px;
 }
-
 .color-white{
     color: var(--white);
 }
@@ -39,7 +38,6 @@ body {
 .color-red{
     color: var(--red);
 }
-
 .bg-orange{
     background-color: var(--orange);
 }
@@ -49,7 +47,6 @@ body {
 .bg-black{
     background-color: var(--black);
 }
-
 .w-40{
     width: 40%;
 }
@@ -84,17 +81,38 @@ body {
 .flex-grow-1{
     flex-grow: 1;
 }
+.flex-justify-end{
+    justify-content: end;
+}
 .gap-5{
     gap: 5px;
 }
 .gap-10{
     gap: 10px;
 }
+.gap-test-unused{
+    gap:100px;
+}
+.padding-12ud{
+    padding: 12px 0px;
+}
+.margin-bottom-02{
+    margin-bottom: 0.2rem;
+}
+.margin-bottom-03{
+    margin-bottom: 0.3rem;
+}
+.margin-bottom-30px{
+    margin-bottom: 30px;
+}
 .text-align-left{
     text-align: left;
 }
 .text-align-right{
     text-align: right;
+}
+.text-small-06{
+    font-size: 0.6rem;
 }
 .text-small{
     font-size: 0.8em;
@@ -186,5 +204,11 @@ body {
 }
 
 #app_footer{
-    
+    .icon_share{
+        /* background-color: var(--white); */
+        border: 1px solid var(--white);
+        width: 0.9rem;
+        height: 0.9rem;
+        border-radius: 0.25rem;
+    }
 }
