@@ -19,9 +19,9 @@ body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-/*  #debug *{
+/*   #debug *{
     border: 1px dashed;
-}  */
+}  */ 
 
 .font-size-18{
     font-size: 18px;
@@ -93,6 +93,9 @@ body {
 .gap-test-unused{
     gap:100px;
 }
+.padding-9ud{
+    padding: 9px 0px;
+}
 .padding-12ud{
     padding: 12px 0px;
 }
@@ -114,7 +117,10 @@ body {
 .text-small-06{
     font-size: 0.6rem;
 }
-.text-small{
+.text-small-08{
+    font-size: 0.8em;
+}
+.text-small{   /* POSSIBLE DE-ASSEMBLE  */
     font-size: 0.8em;
     padding: 0.17em 0.5em;
 }
@@ -160,6 +166,9 @@ body {
 }
 
 #app_header{
+    .header_woman_man_baby, .header_boolean_logo, .header_icons{
+        width: 33%;
+    }
     .header_boolean_logo{
         background-image: url("/assets/img/boolean-logo.png");
     }
@@ -201,8 +210,11 @@ body {
     .icon_heart span{
         font-size: 1.6em;
     }
+    #img_relaxed_fit_tee_uni:hover {
+        background-image: url("/assets/img/1b.webp");
+        opacity: 0.4;
+    }  /* WORKING ON CHANGE IMG WHEN HOVER */
 }
-
 #app_footer{
     .icon_share{
         /* background-color: var(--white); */
@@ -212,3 +224,5 @@ body {
         border-radius: 0.25rem;
     }
 }
+
+
